@@ -1,0 +1,2 @@
+A cartoon donkey.  UV mapped, textured with particles for fur and grass.  A lot of the post modelling techniques came from Blender Cookie's excellent Rudolph the Reindeer tutorial. http://cgcookie.com/blender/2011/12/22/creating-rudolph-the-red-nosed-reindeer-part-2/  
+I hope you can find a use for him.  Please feel free to post comments.
