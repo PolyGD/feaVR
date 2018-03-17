@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 67286c3292ba3994b91da6e41d4f59f7
+timeCreated: 1513175728
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: chest
+    100002: Donkey
+    100004: //RootNode
+    100006: Donkey_skeleton
+    100008: ear1_l
+    100010: ear1_r
+    100012: ear2_l
+    100014: ear2_r
+    100016: Eye_l
+    100018: eye_l
+    100020: Eye_r
+    100022: eye_r
+    100024: FHoof_l
+    100026: FHoof_r
+    100028: FShin_l
+    100030: FShin_r
+    100032: FThigh_l
+    100034: FThigh_r
+    100036: Ground
+    100038: head
+    100040: hip
+    100042: jaw
+    100044: MasterControl
+    100046: neck1
+    100048: neck2
+    100050: RHoof_l
+    100052: RHoof_r
+    100054: RShin_l
+    100056: RShin_r
+    100058: RThigh_l
+    100060: RThigh_r
+    100062: spine
+    100064: tail1
+    100066: tail2
+    100068: tail3
+    100070: tail4
+    400000: chest
+    400002: Donkey
+    400004: //RootNode
+    400006: Donkey_skeleton
+    400008: ear1_l
+    400010: ear1_r
+    400012: ear2_l
+    400014: ear2_r
+    400016: Eye_l
+    400018: eye_l
+    400020: Eye_r
+    400022: eye_r
+    400024: FHoof_l
+    400026: FHoof_r
+    400028: FShin_l
+    400030: FShin_r
+    400032: FThigh_l
+    400034: FThigh_r
+    400036: Ground
+    400038: head
+    400040: hip
+    400042: jaw
+    400044: MasterControl
+    400046: neck1
+    400048: neck2
+    400050: RHoof_l
+    400052: RHoof_r
+    400054: RShin_l
+    400056: RShin_r
+    400058: RThigh_l
+    400060: RThigh_r
+    400062: spine
+    400064: tail1
+    400066: tail2
+    400068: tail3
+    400070: tail4
+    2300000: Ground
+    3300000: Ground
+    4300000: Ground
+    4300002: Donkey
+    4300004: Eye_r
+    4300006: Eye_l
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Donkey
+    13700002: Eye_l
+    13700004: Eye_r
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
