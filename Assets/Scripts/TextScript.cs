@@ -17,14 +17,9 @@ public class TextScript : MonoBehaviour {
 	void Update () {
       if (Time.time - time > 0.2) {
          time = Time.time;
-         try {
-            using (AndroidJavaClass cls_UnityPlayer = new AndroidJavaClass ("quinteiro.nathan.feavr.Unity.FeavrReceiver")) {
-               int bpm = cls_UnityPlayer.CallStatic<int> ("getVal");
-               text.text = "BPM: " + bpm + "  " + + Random.Range(0,10);   
-            }
-         } catch {
-            text.text = "Impossible" + Random.Range(0,10);
-         }
+
+         text.text = "BPM: " + FeavrConnector.bpm + "  " + + Random.Range(0,10);   
+
       }
 	}
 }
