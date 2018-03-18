@@ -8,6 +8,9 @@ using Random = UnityEngine.Random;
 [RequireComponent(typeof (AudioSource))]
 public class FeavrController : MonoBehaviour
 {
+
+   public TargetScript target;
+
    [SerializeField] private bool m_IsWalking;
    [SerializeField] private float m_WalkSpeed;
    [SerializeField] private float m_RunSpeed;
@@ -51,10 +54,12 @@ public class FeavrController : MonoBehaviour
    // Update is called once per frame
    private void Update()
    {
+
+
       RotateView();
       // the jump state needs to read here to make sure it is not missed
       if (!m_Jump && !m_Jumping) {
-         m_Jump = Input.GetKeyDown ("space") || (Input.GetAxis ("Fire1") == 1);
+         m_Jump = Input.GetKeyDown ("space");
       }
 
       if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
@@ -67,6 +72,11 @@ public class FeavrController : MonoBehaviour
       if (!m_CharacterController.isGrounded && !m_Jumping && m_PreviouslyGrounded)
       {
          m_MoveDir.y = 0f;
+      }
+
+      if (Input.GetButtonDown ("Fire1")) {
+         print ("DAMAGE");
+         target.damage (40);
       }
 
       m_PreviouslyGrounded = m_CharacterController.isGrounded;
