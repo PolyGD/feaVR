@@ -41,3 +41,7 @@ sysinfo.txt
 !/Assets/Scripts/
 !/Assets/_scenes/
 !/Assets/Prefabs/
+
+
+#Add weapons
+!/Assets/Weapon/
