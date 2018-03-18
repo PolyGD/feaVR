@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 
 public class ZombieScript : TargetScript {
-
+  
    public Animator animator;
    public GameObject player;
    private NavMeshAgent agent;
@@ -23,5 +23,8 @@ public class ZombieScript : TargetScript {
    public override void kill() {
       print ("I am dead");
       animator.SetTrigger("dies");
+
+        agent.isStopped = true;
+        Destroy(gameObject, 15f);
    }
 }
