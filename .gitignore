@@ -40,3 +40,4 @@ sysinfo.txt
 /Assets/*
 !/Assets/Scripts/
 !/Assets/_scenes/
+!/Assets/Prefabs/
