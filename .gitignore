@@ -39,4 +39,4 @@ sysinfo.txt
 #Remove all assets except Scripts
 /Assets/*
 !/Assets/Scripts/
-!/Assets/_scenes/*
+!/Assets/_scenes/
